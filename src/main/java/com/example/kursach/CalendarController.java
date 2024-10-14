@@ -18,7 +18,6 @@ import javafx.scene.text.Text;
 import javafx.scene.control.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.net.URI;
 import java.net.URL;
 import java.net.http.HttpClient;

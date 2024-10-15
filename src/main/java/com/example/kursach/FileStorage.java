@@ -94,6 +94,7 @@ public class FileStorage {
         }
     }
 
+
     public static void deleteDate(String date) {
         File directory = new File(NOTES_DIR + File.separator + date);
         if (directory.exists() && directory.isDirectory()) {

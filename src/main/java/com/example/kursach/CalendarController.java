@@ -1,6 +1,4 @@
 package com.example.kursach;
-
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -42,6 +40,8 @@ public class CalendarController implements Initializable {
     @FXML
     private FlowPane calendar;
 
+    private ContextMenu contextMenuTextField;
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         logger.info("Hello World!");
@@ -66,8 +66,6 @@ public class CalendarController implements Initializable {
 
         drawCalendar();
     }
-
-    private ContextMenu contextMenuTextField;
 
     @FXML
     void backOneMonth(ActionEvent event) {

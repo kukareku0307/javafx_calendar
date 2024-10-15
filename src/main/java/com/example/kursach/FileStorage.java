@@ -34,7 +34,8 @@ public class FileStorage {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            CalendarController.logger.error(e.getMessage());
+//            e.printStackTrace();
         }
     }
 
@@ -55,7 +56,8 @@ public class FileStorage {
                 writer.write(Integer.toString(noteId));
             }
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+            CalendarController.logger.error(e.getMessage());
         }
     }
 
@@ -74,7 +76,8 @@ public class FileStorage {
                                     return new SimpleEntry<>(fileId, note);
                                 }
                             } catch (IOException e) {
-                                e.printStackTrace();
+                                CalendarController.logger.error(e.getMessage());
+//                                e.printStackTrace();
                                 return null;
                             }
                         })

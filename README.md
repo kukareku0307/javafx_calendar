@@ -66,7 +66,6 @@ _2\. Классы. Блок-схема приложения._
   <img src="./рис1.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
 
-
 <p align="center">Рис. 1. Блок-схема алгоритма </p>
 
 _3\. Работа приложения._
@@ -74,9 +73,8 @@ _3\. Работа приложения._
 3.1 Запуск приложения и “главный” экран, отражающий текущий месяц.
 
 <div align="center">
-  <img src="./рис2.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
+  <img src="./рис2.png" alt="Demo" width="400" style="border-radius: 12px;">
 </div>
-
 
 <p align="center"> Рис. 2. Графический интерфейс программы. </p>
 

@@ -63,7 +63,7 @@ _2\. Классы. Блок-схема приложения._
 Далее была разработана блок-схема, показывающая основную работу приложения со всем функционалом:
 
 <div align="center">
-  <img src="./рис1.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
+  <img src="./рис1.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px; margin-bottom: 20px;">
 </div>
 
 Рис. 1. Блок-схема алгоритма

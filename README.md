@@ -63,8 +63,9 @@ _2\. Классы. Блок-схема приложения._
 Далее была разработана блок-схема, показывающая основную работу приложения со всем функционалом:
 
 <div align="center">
-  <img src="./рис1.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px; margin-bottom: 20px;">
+  <img src="./рис1.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
+
 
 Рис. 1. Блок-схема алгоритма
 
@@ -76,13 +77,15 @@ _3\. Работа приложения._
   <img src="./рис2.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
 
+
 Рис. 2. Графический интерфейс программы.
 
 3.2. Отображение информации о дне: отображение того, выходной день или рабочий(обработка http-get запроса на сайт IsDayOff.ru), список заметок(порядковый номер, идентификатор заметки(который инкрементируется каждый раз при добавлении заметки), содержимое заметки и кнопка “Удалить”, удаляющая заметку), кнопка “Удалить все”, удаляющая заметки на выбранный день.
 
 <div align="center">
-  <img src="./рис3.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px; margin-bottom: 20px;">
+  <img src="./рис3.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
+
 
 Рисунок 3. Вывод информации о дне с заметками.
 
@@ -94,6 +97,7 @@ _3\. Работа приложения._
   <img src="./рис4.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
 
+
 Рисунок 4. Добавление заметки.
 
 3.4. Поиск заметок для дня.
@@ -101,6 +105,7 @@ _3\. Работа приложения._
 <div align="center">
   <img src="./рис5.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
+
 
 Рисунок 5. Пример поиска по дню.
 
@@ -110,6 +115,7 @@ _4\. UML-диаграмма классов._
   <img src="./рис6.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
 
+
 Рисунок 6. UML-диаграмма классов.
 
 _5\. UML-диаграмма прецедентов._
@@ -117,6 +123,7 @@ _5\. UML-диаграмма прецедентов._
 <div align="center">
   <img src="./рис7.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
+
 
 Рисунок 7. UML-диаграмма прецедентов.
 

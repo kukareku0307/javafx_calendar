@@ -73,7 +73,7 @@ _3\. Работа приложения._
 3.1 Запуск приложения и “главный” экран, отражающий текущий месяц.
 
 <div align="center">
-  <img src="./рис2.png" alt="Demo" width="400" style="border-radius: 12px;">
+  <img src="./рис2.png" alt="Demo" width="400" style="border-radius: 12px; margin-top: 20px;">
 </div>
 
 <p align="center"> Рис. 2. Графический интерфейс программы. </p>
